@@ -1,0 +1,240 @@
+{
+  "domains": {
+    "Strength": ["Deadlift", "Strict Press", "Pull-Ups"],
+    "Power": ["Broad Jump", "Grace"],
+    "Endurance": ["100 Burpees", "2k Row", "5k Run"],
+    "Durability": ["Farmers Carry", "Dead Hang", "Plank", "Balance"]
+  },
+  "standards": {
+    "Deadlift": {
+      "unit": "lbs",
+      "calc": "multiplier",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 1.25,
+          "athletic": 1.75,
+          "elite": 2.25
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 1.00,
+          "athletic": 1.25,
+          "elite": 1.60
+        }
+      }
+    },
+    "Strict Press": {
+      "unit": "lbs",
+      "calc": "multiplier",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 0.60,
+          "athletic": 0.80,
+          "elite": 1.00
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 0.40,
+          "athletic": 0.55,
+          "elite": 0.70
+        }
+      }
+    },
+    "Pull-Ups": {
+      "unit": "reps",
+      "calc": "absolute",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 5,
+          "athletic": 12,
+          "elite": 20
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 1,
+          "athletic": 5,
+          "elite": 10
+        }
+      }
+    },
+    "Broad Jump": {
+      "unit": "ft",
+      "calc": "absolute",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 6.0,
+          "athletic": 7.5,
+          "elite": 9.0
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 4.5,
+          "athletic": 6.0,
+          "elite": 7.5
+        }
+      }
+    },
+    "Grace": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "lower",
+      "note": "Men @ 135lbs, Women @ 95lbs",
+      "male": {
+        "35-39": {
+          "basic": 420,
+          "athletic": 240,
+          "elite": 150
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 480,
+          "athletic": 300,
+          "elite": 210
+        }
+      }
+    },
+    "100 Burpees": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "lower",
+      "male": {
+        "35-39": {
+          "basic": 720,
+          "athletic": 480,
+          "elite": 360
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 840,
+          "athletic": 540,
+          "elite": 420
+        }
+      }
+    },
+    "2k Row": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "lower",
+      "male": {
+        "35-39": {
+          "basic": 480,
+          "athletic": 440,
+          "elite": 410
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 540,
+          "athletic": 495,
+          "elite": 460
+        }
+      }
+    },
+    "5k Run": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "lower",
+      "male": {
+        "35-39": {
+          "basic": 1680,
+          "athletic": 1440,
+          "elite": 1260
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 1920,
+          "athletic": 1680,
+          "elite": 1440
+        }
+      }
+    },
+    "Farmers Carry": {
+      "unit": "meters",
+      "calc": "absolute",
+      "logic": "higher",
+      "note": "100% Bodyweight Load",
+      "male": {
+        "35-39": {
+          "basic": 50,
+          "athletic": 75,
+          "elite": 100
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 40,
+          "athletic": 60,
+          "elite": 80
+        }
+      }
+    },
+    "Dead Hang": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 30,
+          "athletic": 60,
+          "elite": 120
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 30,
+          "athletic": 60,
+          "elite": 100
+        }
+      }
+    },
+    "Plank": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 90,
+          "athletic": 120,
+          "elite": 180
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 90,
+          "athletic": 120,
+          "elite": 180
+        }
+      }
+    },
+    "Balance": {
+      "unit": "time",
+      "calc": "absolute",
+      "logic": "higher",
+      "male": {
+        "35-39": {
+          "basic": 5,
+          "athletic": 10,
+          "elite": 20
+        }
+      },
+      "female": {
+        "35-39": {
+          "basic": 5,
+          "athletic": 10,
+          "elite": 20
+        }
+      }
+    }
+  }
+}
